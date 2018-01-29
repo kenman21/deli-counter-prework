@@ -4,8 +4,9 @@ def line(katzdeli)
   if katzdeli.size != 0 
     line = "The line is currently:"
     people = ""
-    katzdeli.each do |person|
-      people = people + person
+    katzdeli.each_with_index do |person, index|
+      index +=1 
+      people = people + index + "." person
     end 
   else 
     line = "The line is currently empty."
