@@ -3,6 +3,7 @@
 def line(katzdeli)
   if katzdeli.size != 0 
     line = "The line is currently:"
+    people = ""
     katzdeli.each do |person|
       people = people + person
     end 
