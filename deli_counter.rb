@@ -15,3 +15,14 @@ def line(katzdeli)
     puts line
   end 
 end 
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  line = "#{name} is #{katz_deli.index(name)} in line"
+  puts line
+end 
+
+  
+  
+  
+  
