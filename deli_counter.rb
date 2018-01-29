@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(katzdeli)
-  if katzdeli.size > 1 
+  if katzdeli.size != 0 
     line = "The line is currently:"
     katzdeli.each do |person|
       people = people + person
