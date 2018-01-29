@@ -18,7 +18,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  line = "Welcome, #{name}. You are number #{katz_deli.index(name)} in line."
+  line = "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
   puts line
 end 
 
