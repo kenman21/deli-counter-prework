@@ -9,7 +9,9 @@ def line(katzdeli)
       people = "#{people} #{index.to_s}. #{person}"
     end 
     line = line + people
+    puts line
   else 
     line = "The line is currently empty."
+    puts line
   end 
 end 
