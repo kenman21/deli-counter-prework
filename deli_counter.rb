@@ -6,7 +6,7 @@ def line(katzdeli)
     people = ""
     katzdeli.each_with_index do |person, index|
       index += 1 
-      people = people + index.to_a + person
+      people = people + index.to_c + person
     end 
   else 
     line = "The line is currently empty."
